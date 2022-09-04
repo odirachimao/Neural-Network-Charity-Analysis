@@ -22,3 +22,8 @@ This project uses deep-learning neural networks using TensorFlow in Python to an
 - The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
 
 - To increase the performance of the model, we applied bucketing to the feature ASK_AMT and organized the different values by intervals. We increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers. 
+
+
+## SUMMARY: 
+
+Overall, we conclude that the deep learning neural network model is outperforming because it did not reach the target of 75% accuracy. Since we are in a binary classification situation, we could use a supervised machine learning model such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output and evaluate its performance against our deep learning model.
